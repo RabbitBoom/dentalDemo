@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.top-bg {
+    background-image: url(../images/img-1.jpg);
+}
+
+
+.navi {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .2);
+}
+
+.btn-contact {
+    background: linear-gradient(to top, rgba(146, 64, 14, .9) 0%, rgb(120, 53, 15) 50%, rgba(146, 64, 14, .9) 100%);
+}
+
+.statics {
+    background: linear-gradient(to bottom right, #c0ae94, #886b55);
+}
+
+.about {
+    background: linear-gradient(to bottom right, #efeae2, #f0eeea);
+}
+
+.contact-img {
+    border: 20px solid #e1d9c9;
+    background-image: url(../images/contact.jpg);
+}
+
+@media screen and (max-width: 1440px) {
+    .top-bg {
+        background-image: url(../images/img-2.jpg);
+    }
+}
